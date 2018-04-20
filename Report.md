@@ -123,7 +123,7 @@ comparing adjusted R^2 (train)  and adjusted R^2 (Test)
 
 ##### comparing MSE (train)  and MSE (Test)
 
-Model |MSE (train) |
+Model |MSE (train) |MSE (test) 
 ---|---|---|
 Linear:      |0.013918263205177094   |0.01430007776421342
 Ridge:       |0.014753280841447275  |0.014207866918323007
@@ -134,7 +134,7 @@ ElasticNet:  |0.01482210176848078  |0.013928592149042488
 - each model performed much better with better data!
 
 ##### comparing MSE train (data_all)  and MSE train (data_signif)
-Model |MSE (train) |MSE (test) |
+Model |MSE (train) |MSE (test)
 ---|---|---
 Linear:| 0.026150708502340535 | 0.013642763896953482
 Ridge: |0.015992214524348968 | 0.013745006688510317
