@@ -86,12 +86,12 @@ comparing adjusted R^2 (train)  and adjusted R^2 (Test)
 ##### comparing MSE (train)  and MSE (Test)
 - comment on bias vs variance
 
-Model | MSE (train) | MSE (test)
+Model | MSE (train) | MSE (test) | MSE (test) with PCA
 ---|---|---                            
-Linear:      | 0.01338626315815241   | 0.026150708502340535
-Ridge:       | 0.014421157320511111  | 0.015992214524348968
-Lasso:       | 0.01472358888569816   | 0.013799076081575625
-ElasticNet:  | 0.01466793603198073   | 0.013981562809447583
+Linear:      | 0.01338626315815241   | 0.026150708502340535 |0.014417543236567796
+Ridge:       | 0.014421157320511111  | 0.015992214524348968| 0.014419253310828
+Lasso:       | 0.01472358888569816   | 0.013799076081575625 | 0.014420671511851392
+ElasticNet:  | 0.01466793603198073   | 0.013981562809447583 | 0.014419140677178768
 
 
 
@@ -123,12 +123,12 @@ comparing adjusted R^2 (train)  and adjusted R^2 (Test)
 
 ##### comparing MSE (train)  and MSE (Test)
 
-Model |MSE (train) |MSE (test) 
+Model |MSE (train) |MSE (test) | MSE (test) with PCA
 ---|---|---|
-Linear:      |0.013918263205177094   |0.01430007776421342
-Ridge:       |0.014753280841447275  |0.014207866918323007
-Lasso:       |0.0148743580165759  |0.013827493612571065
-ElasticNet:  |0.01482210176848078  |0.013928592149042488
+Linear:      |0.013918263205177094   |0.01430007776421342 | 0.014119138392881089
+Ridge:       |0.014753280841447275  |0.014207866918323007 | 0.014123310975014739
+Lasso:       |0.0148743580165759  |0.013827493612571065 | 0.014166427209095767
+ElasticNet:  |0.01482210176848078  |0.013928592149042488 | 0.014153130754452452
 
 - comment on bias vs variance
 - each model performed much better with better data!
